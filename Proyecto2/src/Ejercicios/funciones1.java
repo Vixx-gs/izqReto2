@@ -29,7 +29,6 @@ public class funciones1 {
 	public static double librasakilogramos(double lb) {
 		double kg=lb*0.453592;
 		
-		
 		return kg;
 	}
 
