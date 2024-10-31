@@ -46,6 +46,14 @@ public class main {
 					System.out.println("0. Salir");
 					n1=funciones0.dimeEntero("Introduce un numero del 0 al 2", sc);
 					conver=funciones0.dimeDouble("Pon el numero a convertir", sc);
+					do {
+						if(n1==1) {
+							System.out.println(funciones1.kilogramosalibras(conver));
+						}
+						if(n1==2) {
+							System.out.println(funciones1.librasakilogramos(conver));
+						}
+					}while(n!=0);
 				}
 				if(n==3) {
 					System.out.println("Selecciona la conversion de temperatura");
