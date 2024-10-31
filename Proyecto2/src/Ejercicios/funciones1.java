@@ -9,5 +9,14 @@ public class funciones1 {
 		
 		return m;
 	}
+	
+	//esta funcion hace de millas a kilometros
+	public static double millasakilometros(double m) {
+		double km=m*1.60934;
+		
+		return km;
+	}
+	
+	
 
 }
