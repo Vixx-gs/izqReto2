@@ -14,8 +14,17 @@ public class funciones2 {
 		return celsius;
 	}
 	
+	//Esta funcion pasa de litros a galones.
 	public static double litrosGalones(double litros ) {
-		double Galones
+		double galones=litros*3.785;
+		return galones;
+		
+	}
+	
+	//Esta funcion pasa de galones a litros.
+	public static double galonesLitros(double galones) {
+		double litros=(galones/3.785);
+		return litros;
 	}
 	
 
