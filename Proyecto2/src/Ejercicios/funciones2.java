@@ -14,6 +14,10 @@ public class funciones2 {
 		return celsius;
 	}
 	
+	public static double litrosGalones(double litros ) {
+		double Galones
+	}
+	
 
 }
   
