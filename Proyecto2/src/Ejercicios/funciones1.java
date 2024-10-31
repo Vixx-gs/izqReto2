@@ -17,6 +17,18 @@ public class funciones1 {
 		return km;
 	}
 	
+	//esta funcion hace de kilos a libras
+	public static double kilogramosalibras(double kg) {
+		double lb=kg*0.454;
+		
+		return lb;
+	}
 	
+	//esta funcion hace de libras a kilos
+	public static double librasakilogramos(double lb) {
+		double kg=lb*2.2046;
+		
+		return kg;
+	}
 
 }
