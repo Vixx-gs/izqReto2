@@ -1,11 +1,18 @@
 package Ejercicios;
 
 public class funciones2 {
+<<<<<<< HEAD
 	
 	//Esta funcion pasa de celsius a Farenheit
 	public static double celsiusFarenheit( double celsius) {
 		double farenheit=(celsius*1.8)+32;
 		return farenheit;
+=======
+
+	public static void main(String[] args) {
+		
+
+>>>>>>> branch 'main' of https://github.com/Vixx-gs/izqReto2.git
 	}
 	
 	//Esta funcion pasa de farenheit a Celsius
